@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import styles from "./navbar.module.css";
+import Image from "next/image";
 
 export default function NavBar() {
   const router = useRouter();
@@ -16,10 +17,25 @@ export default function NavBar() {
 
   return (
     <div className={styles.nav}>
-      <div className={styles.logo} onClick={() => handleLogoClick()}>
-        LOGO
+      <Image
+        className={styles.logo}
+        src="/whitelogo2.png"
+        alt="ToolBox Logo"
+        width={300}
+        height={50}
+        onClick={handleLogoClick}
+      />
+      <Image
+        className={styles.mobileLogo}
+        src="/whitebulblogo1.png"
+        alt="ToolBox Logo"
+        width={28}
+        height={40}
+        onClick={handleLogoClick}
+      />
+      <div className={styles.about} onClick={() => handleAboutClick()}>
+        ?
       </div>
-      <div onClick={() => handleAboutClick()}>?</div>
     </div>
   );
 }

@@ -1,0 +1,31 @@
+.container {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.card {
+  /* height: 100px;
+  width: 100px; */
+  padding: 20px;
+  width: 800px;
+  border-radius: 5px;
+  background-color: rgb(121, 22, 22);
+}
+
+.cardTitle {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-bottom: 10px;
+}
+
+.cardDesc {
+  margin-bottom: 10px;
+}
+
+.cardLink {
+  text-decoration: underline;
+  cursor: pointer;
+}

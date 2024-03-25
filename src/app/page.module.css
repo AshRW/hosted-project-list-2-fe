@@ -8,25 +8,37 @@
 }
 
 .card {
-  background-color: #005959;
+  /* background-color: #3d3d3d; */
+  background-color: #2d2c2c;
   padding: 20px;
   width: 60vw;
-  border: 5px solid #004646;
+  /* border-bottom: 5px solid #2f2f2f; */
+  border-bottom: 5px solid rgb(121, 22, 22);
+  /* border-bottom: 5px solid #5c7605; */
   border-radius: 1rem;
   transition: all 0.1s ease-out;
 }
 
 .cardName {
   font-weight: 700;
+  font-size: large;
   text-align: center;
   margin: 10px;
   padding: 10px;
 }
 
+.cardNumber {
+  color: rgb(136, 29, 29);
+  font-size: xx-large;
+}
+
 .card:hover {
   cursor: pointer;
-  /* transform: scale(1.05); */
+  /* box-shadow: 0px 1px 10px #45511d; */
   padding: 30px;
+  .cardNumber {
+    color: rgb(237, 8, 8);
+  }
 }
 
 .cardDesc {
@@ -41,7 +53,16 @@
 
 .cardButton {
   margin-top: 10px;
-  padding: 5px 15px;
+  padding: 8px 20px;
+  background-color: #454545;
+  border: none;
+  border-radius: 3.5px;
+  transition: all 0.2s;
+}
+
+.cardButton:hover {
+  transform: scale(1.05);
+  background-color: rgb(42, 27, 27);
 }
 
 @media only screen and (max-width: 1350px) {

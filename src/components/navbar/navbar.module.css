@@ -1,12 +1,14 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: #018786;
+  background-color: #232323;
   padding: 10px 30px;
-  height: 8vh;
+  height: 9vh;
   align-items: center;
   border-radius: 0px 0px 7px 7px;
-  box-shadow: 5px 5px #005959;
+  /* border-bottom: 5px solid rgb(53, 1, 1); */
+  border-bottom: 5px solid #2b1111;
+  /* border-bottom: 5px solid #405106; */
 }
 
 .logo {
@@ -16,5 +18,24 @@
   transform: scale(1.1);
 }
 
+.about {
+  transition: all 0.15s ease-out;
+  font-weight: 900;
+  font-size: x-large;
+}
+.about:hover {
+  transform: scale(2.5) rotate(30deg);
+}
+
+.mobileLogo {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .mobileLogo {
+    display: grid;
+  }
 }
