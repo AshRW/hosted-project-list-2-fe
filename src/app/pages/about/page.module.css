@@ -7,12 +7,15 @@
 }
 
 .card {
-  /* height: 100px;
-  width: 100px; */
   padding: 20px;
   width: 800px;
   border-radius: 5px;
   background-color: rgb(121, 22, 22);
+  transition: all 0.1s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 .cardTitle {

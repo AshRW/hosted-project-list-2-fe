@@ -15,9 +15,9 @@ export default function AboutPage() {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <div className={styles.cardTitle}>About this website 🤔</div>
+        <div className={styles.cardTitle}>About 🤔</div>
         <div className={styles.cardDesc}>
-          This WebApp is made using NextJs and is server side rendered. I made this website as a single place to list and showcase all my projects that are deployed. Earlier, I had a similar webapp too, that was the predecessor to this WebApp. Thats listed in the list of my projects too!
+          This WebApp is made using NextJs and is server side rendered. I made this website as a single place to list and showcase all my projects that are deployed. Earlier, I had a similar webapp too, that was the predecessor to this WebApp. Thats listed in the list of my projects too! ~ Anurag W
         </div>
         <div className={styles.cardLink} onClick={handleLinkClick}>
           My GitHub

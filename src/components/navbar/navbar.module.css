@@ -13,12 +13,14 @@
 
 .logo {
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 .logo:hover {
   transform: scale(1.1);
 }
 
 .about {
+  cursor: pointer;
   transition: all 0.15s ease-out;
   font-weight: 900;
   font-size: x-large;
